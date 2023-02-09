@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Open%20Sans&fbclid=IwAR0x8eG7OpalNwtg53H5mPpAOw2A9uLg6j4-oULF5Wpxc3eMID8sX_6faUc");
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: -webkit-linear-gradient(to left, #DDEFBB, #FFEEEE);
+    background: linear-gradient(to left #DDEFBB, #FFEEEE);
+}
+
+
+/* box-shadow: 3.9px 7.8px hs1(0deg 0% 0% / 0.38); */
+*body {
+    background-color: white;
+
+}
+
+.products-grid {
+    padding: 150px 120px 200px 120px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.grid-wrapper {
+   
+    display: inline-block;
+  
+}
+
+.grid-content {
+    border: 1px solid black;
+    display: inline-block;
+    width: 333px;
+    padding: 15px 15px 25px 15px;
+}
+
+.grid-content img {
+    width: 100%;
+}
+
+
+.grid-content h3 {
+    margin: 15px 0;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.grid-content p {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: .5px;
+    font-family: "Open Sans', sans-serif";
+}
+
+.grid-content h3,
+.grid-content p {
+    margin-left: 10px;
+}
+
+.grid-footer button {
+    font-size: 12px;
+    line-height: 18px;
+    padding: 6px 26px;
+    background-color: inherit;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: lowercase;
+}
+
+.grid-footer button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.grid-footer {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.grid-wrapper.middle {
+    margin: 0 100px;
+}
+
+.logo-svg{
+  margin-left: 100px;
+  width: 7%;
+  height: 65px;  
+}
+.navbar{
+  border: 1px solid black; 
+  display: flex;
+  align-items: center;
+  line-height: 45px;
+ 
+}
+.user-svg{
+margin-right: 90px;
+width: 20px;
+cursor: pointer;
+}
+
+
+nav{
+  flex: 1;
+text-align: center;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 60px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+p{
+  color: black;
+  font-size: 25px;
+  margin-left: 620px;
+  line-height: 100px;
+  
+}
+
+.info{
+  color: #780202;
+  font-size: 35px;
+  text-align: center;
+  line-height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .see-more-products{
+  margin: 50px;
+  width: 50%;
+
+} */
+
